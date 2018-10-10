@@ -19,3 +19,12 @@ function displayDate() {
      x.style.display = "none"
     }
  }
+
+ function displayTime() {
+    var y = document.getElementById("current-time");
+    if (y.style.display === "none") {
+        y.style.display = "block";
+    } else {
+        y.style.display = "none"
+    }
+}
