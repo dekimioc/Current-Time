@@ -28,3 +28,12 @@ function displayDate() {
         y.style.display = "none"
     }
 }
+
+function displayDateTime() {
+    var z = document.getElementById("current-date-time");
+    if (z.style.display === "none") {
+        z.style.display = "block";
+    } else {
+        z.style.display = "none";
+    }
+}
